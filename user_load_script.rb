@@ -3,10 +3,10 @@
 require 'rally_api'
 require 'csv'
 
-rally_url        = "https://10.32.16.78/slm"
+rally_url        = "https://10.0.0.0/slm"
 rally_user       = "test@rallydev.com"
 rally_password   = "treblid!"
-rally_ws_version = "1.37"
+rally_ws_version = "1.33"
 filename         = 'users_update.csv'
 
 def get_rally_users()
